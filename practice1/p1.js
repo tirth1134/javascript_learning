@@ -7,5 +7,5 @@ function groceryBill()
     g2=parseFloat(document.getElementById("g2").value);
     g3=parseFloat(document.getElementById("g3").value);
     let total=g1+g2+g3;
-    document.getElementById('result').innerText="Your total bill is:${total}";
+    document.getElementById('result').innerText=`Your total bill is:${total}`;
 }
