@@ -20,3 +20,9 @@ function checkCountValue()
         alert("You Gained 20 follwers in Instagram. Keep It Up👍");
     }
 }
+function resetCount()
+{
+    count=0;
+    displayCount();
+    alert("Count has been reset to 0");
+}
